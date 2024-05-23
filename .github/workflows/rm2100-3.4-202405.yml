@@ -76,9 +76,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_MSD_LITE=n" >> .config #MSD_LITE
         ##内网穿透
         #echo "CONFIG_FIRMWARE_INCLUDE_NPC=y" >> .config 
-        echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
-        echo "CONFIG_FIRMWARE_INCLUDE_FRPC=n" >> .config  #frpc
-        echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
+        #echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
+        #echo "CONFIG_FIRMWARE_INCLUDE_FRPC=n" >> .config  #frpc
+        #echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
         ##科学上网##
         #echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #mini太小，内置不进
